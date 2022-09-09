@@ -1,8 +1,5 @@
-/**                                                                                        
- *
- *  * we are using puts to print result on the screen                                         
- */
- 
+/* we are using puts to print result on the screen */
+
 #include <stdio.h>
 
 /**
