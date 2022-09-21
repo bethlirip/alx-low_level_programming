@@ -6,9 +6,10 @@
  **/
 int main(void)
 {
-	int x, lower_x;
+	char x, lower_x;
 
 	for (x = 'A'; x <= 'Z'; x++)
+		lower_x = tolower(x);
 		putchar(tolowerI(x));
 
 	return (0);
