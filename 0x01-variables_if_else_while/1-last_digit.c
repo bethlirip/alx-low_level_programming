@@ -6,7 +6,7 @@
 /* betty style doc for function main goes there */
 /**
  * main - this is the main function
- * Retrun: this will always return 0
+ * Return: this will always return 0
  **/
 int main(void)
 {
@@ -22,7 +22,7 @@ int main(void)
 	else if (ln == 0)
 		printf("Last digit of %d is %d and is 0\n", n, ln);
 	else
-		printf("Last digit of %d is %d and less than 6 and not 0\n", n, ln);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ln);
 
 	return (0);
 }
