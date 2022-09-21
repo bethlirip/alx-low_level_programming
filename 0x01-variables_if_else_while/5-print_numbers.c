@@ -9,8 +9,8 @@ int main(void)
 	int sd;
 
 	for (sd = 0; sd < 10; sd++)
-		printf('%i', sd);
+		printf("%i", sd);
 
-	printf('\n');
+	printf("\n");
 	return (0);
 }
