@@ -1,21 +1,30 @@
+/*
+ * File: 100-print_comb3.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
 
 /**
- * main - will print numbers from 00 to 99 separated
- * by a comma and space
- * Retun: always 0
- **/
+ * main - Prints all possible combinations of two different digits,
+ *        in ascending order, separated by a comma followed by a space.
+ *
+ * Return: Always 0.
+ */
 int main(void)
 {
-	int digit_1, digit_2;
+	int digit1, digit2;
 
-	for (digit_1 = 0; digit_1 < 10; digit_1++)
+	for (digit1 = 0; digit1 < 9; digit1++)
 	{
-		for (digit_2 = 0; digit_2 < 10; digit_2++)
+		for (digit2 = digit1 + 1; digit2 < 10; digit2++)
 		{
-			putchar((digit_1 % 10) + '0');
-			putchar((digit_2 % 10) + '0');
+			putchar((digit1 % 10) + '0');
+			putchar((digit2 % 10) + '0');
 
+			if (digit1 == 8 && digit2 == 9)
+				continue;
+			
 			putchar(',');
 			putchar(' ');
 		}
