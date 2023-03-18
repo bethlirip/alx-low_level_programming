@@ -6,7 +6,9 @@
  **/
 int main (void)
 {
-	fprintf("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
-	fprintf(stderr, "standard error in motion");
+	write(1,
+		"and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 
+		60);
+
 	return (1);
 }
