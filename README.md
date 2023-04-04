@@ -1,1 +1,1 @@
-For c exercises
+This is a read me file for pointers and array
